@@ -15,7 +15,7 @@
  
 "pool_list" :
 [
-	{"pool_address" : "pool.etn.spacepools.org:3333", "wallet_address" : "etnk4pB8AtzchTfeqq5xis5K12oDzpJxsWYMSTqknx11MgH8yhPJ4R6gZD6Au8m9XVSAQZGh88Pb4P87fKDXDhwo8hQsDpCU1m", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "trtl.pool.mine2gether.com:5555", "wallet_address" : "TRTLuyYLEhxYixLTWdRP8cj7FGD4X8qSwBCi21jduu8jiKrPQrLXMBvQHTBshCWHW6eZbsMUAMoLhVybc82Q1iZogURJjM3UjUZ", "rig_id" : "", "pool_password" : "", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*
@@ -31,8 +31,8 @@
  *    karbo
  *    monero7 (use this for Monero's new PoW)
  *    sumokoin
+ *    turtlecoin
  *
  */
 
-"currency" : "electroneum",
-
+"currency" : "turtlecoin",

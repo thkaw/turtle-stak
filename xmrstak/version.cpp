@@ -3,7 +3,7 @@
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #if defined(GIT_ARCHIVE) && !defined(GIT_COMMIT_HASH)
-#define GIT_COMMIT_HASH 26a5d65f
+#define GIT_COMMIT_HASH 638e0bbd
 #endif
 
 #ifndef GIT_COMMIT_HASH

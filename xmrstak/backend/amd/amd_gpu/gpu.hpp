@@ -14,6 +14,8 @@
 #include <vector>
 #include <mutex>
 #include <memory>
+#include <map>
+#include <array>
 
 #define ERR_SUCCESS (0)
 #define ERR_OCL_API (2)
@@ -50,8 +52,8 @@ struct GpuContext
 	cl_mem InputBuffer;
 	cl_mem OutputBuffer;
 	cl_mem ExtraBuffers[6];
-	cl_program Program[2];
-	cl_kernel Kernels[2][8];
+	std::map<xmrstak_algo_id, cl_program> Program;
+	std::map<xmrstak_algo_id, std::array<cl_kernel,8>> Kernels;
 	size_t freeMem;
 	size_t maxMemPerAlloc;
 	int computeUnits;
@@ -70,7 +72,7 @@ int getAMDPlatformIdx();
 std::vector<GpuContext> getAMDDevices(int index);
 
 size_t InitOpenCL(GpuContext* ctx, size_t num_gpus, size_t platform_idx);
-size_t XMRSetJob(GpuContext* ctx, uint8_t* input, size_t input_len, uint64_t target, xmrstak_algo miner_algo);
-size_t XMRRunJob(GpuContext* ctx, cl_uint* HashOutput, xmrstak_algo miner_algo);
+size_t XMRSetJob(GpuContext* ctx, uint8_t* input, size_t input_len, uint64_t target, const xmrstak_algo& miner_algo);
+size_t XMRRunJob(GpuContext* ctx, cl_uint* HashOutput, const xmrstak_algo& miner_algo);
 uint64_t interleaveAdjustDelay(GpuContext* ctx, const bool enableAutoAdjustment = true);
 uint64_t updateTimings(GpuContext* ctx, const uint64_t t);

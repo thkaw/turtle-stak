@@ -1,0 +1,10 @@
+/home/nathan/turtle-stak/build/CMakeFiles/install/strip.dir
+/home/nathan/turtle-stak/build/CMakeFiles/list_install_components.dir
+/home/nathan/turtle-stak/build/CMakeFiles/install/local.dir
+/home/nathan/turtle-stak/build/CMakeFiles/xmr-stak-c.dir
+/home/nathan/turtle-stak/build/CMakeFiles/xmr-stak-asm.dir
+/home/nathan/turtle-stak/build/CMakeFiles/rebuild_cache.dir
+/home/nathan/turtle-stak/build/CMakeFiles/edit_cache.dir
+/home/nathan/turtle-stak/build/CMakeFiles/install.dir
+/home/nathan/turtle-stak/build/CMakeFiles/xmr-stak-backend.dir
+/home/nathan/turtle-stak/build/CMakeFiles/xmr-stak.dir

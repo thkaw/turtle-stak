@@ -1,0 +1,253 @@
+Determining if the CL_VERSION_2_2 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6ec6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6ec6.dir/build.make CMakeFiles/cmTC_b6ec6.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6ec6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_b6ec6.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_b6ec6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b6ec6.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b6ec6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b6ec6/fast' failed
+make: *** [cmTC_b6ec6/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_2
+  return ((int*)(&CL_VERSION_2_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_1 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86095/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86095.dir/build.make CMakeFiles/cmTC_86095.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86095.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_86095.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_86095.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_86095.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_86095.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_86095/fast' failed
+make: *** [cmTC_86095/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_1
+  return ((int*)(&CL_VERSION_2_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_2_0 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b87c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b87c.dir/build.make CMakeFiles/cmTC_7b87c.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b87c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_7b87c.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_7b87c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7b87c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7b87c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b87c/fast' failed
+make: *** [cmTC_7b87c/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_2_0
+  return ((int*)(&CL_VERSION_2_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_2 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_731b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_731b6.dir/build.make CMakeFiles/cmTC_731b6.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_731b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_731b6.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_731b6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_731b6.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_731b6.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_731b6/fast' failed
+make: *** [cmTC_731b6/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_2
+  return ((int*)(&CL_VERSION_1_2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_1 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4ce0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ce0a.dir/build.make CMakeFiles/cmTC_4ce0a.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ce0a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_4ce0a.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_4ce0a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4ce0a.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4ce0a.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4ce0a/fast' failed
+make: *** [cmTC_4ce0a/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_1
+  return ((int*)(&CL_VERSION_1_1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CL_VERSION_1_0 exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dabd9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dabd9.dir/build.make CMakeFiles/cmTC_dabd9.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dabd9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_dabd9.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h: No such file or directory
+ #include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_dabd9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dabd9.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_dabd9.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dabd9/fast' failed
+make: *** [cmTC_dabd9/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <OpenCL_INCLUDE_DIR-NOTFOUND/CL/cl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CL_VERSION_1_0
+  return ((int*)(&CL_VERSION_1_0))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d0e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d0e0.dir/build.make CMakeFiles/cmTC_6d0e0.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d0e0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -march=native -mtune=native     -o CMakeFiles/cmTC_6d0e0.dir/CheckSymbolExists.c.o   -c /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d0e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d0e0.dir/link.txt --verbose=1
+/usr/bin/cc -march=native -mtune=native      CMakeFiles/cmTC_6d0e0.dir/CheckSymbolExists.c.o  -o cmTC_6d0e0 
+CMakeFiles/cmTC_6d0e0.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6d0e0.dir/build.make:97: recipe for target 'cmTC_6d0e0' failed
+make[1]: *** [cmTC_6d0e0] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d0e0/fast' failed
+make: *** [cmTC_6d0e0/fast] Error 2
+
+File /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_391f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_391f5.dir/build.make CMakeFiles/cmTC_391f5.dir/build
+make[1]: Entering directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_391f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -march=native -mtune=native  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_391f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_391f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_391f5.dir/link.txt --verbose=1
+/usr/bin/cc -march=native -mtune=native  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_391f5.dir/CheckFunctionExists.c.o  -o cmTC_391f5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_391f5.dir/build.make:97: recipe for target 'cmTC_391f5' failed
+make[1]: *** [cmTC_391f5] Error 1
+make[1]: Leaving directory '/home/nathan/turtle-stak/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_391f5/fast' failed
+make: *** [cmTC_391f5/fast] Error 2
+
+
